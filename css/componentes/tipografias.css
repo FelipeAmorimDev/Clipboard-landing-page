@@ -1,0 +1,44 @@
+.font-1-xxl{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 2.875rem;
+  letter-spacing: -0.75px;
+  font-weight: 600;
+}
+
+.font-1-xl{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 2.25rem;
+  letter-spacing: -0.59px;
+  font-weight: 600;
+}
+
+.font-1-x{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: -0.39px;
+  font-weight: 600;
+}
+
+.font-1-l{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  font-weight: 400;
+}
+
+.font-1-l-sb{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.66;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.font-1-s{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1rem;
+  line-height: 1.875;
+  letter-spacing: 0.12px;
+  font-weight: 400;
+}

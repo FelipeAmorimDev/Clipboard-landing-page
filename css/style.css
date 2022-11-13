@@ -1,0 +1,14 @@
+/* Componentes da pagina */
+
+@import url("./componentes/cores.css");
+@import url("./componentes/tipografias.css");
+
+/* Gerais */
+
+body{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.666;
+  letter-spacing: 0.14px;
+}
