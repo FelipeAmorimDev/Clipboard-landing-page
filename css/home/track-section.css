@@ -3,10 +3,10 @@
 .section-track-container {
   max-width: 1440px;
   margin: 0 auto 150px;
-  
+  padding: 0 20px;
   gap: 0px 90px;
   display: grid;
-  grid-template-columns: minmax(400px, auto) minmax(360px, 1fr);
+  grid-template-columns: minmax(400px, auto) minmax(300px, 1fr);
   align-items: center;
 }
 
@@ -47,6 +47,11 @@
   margin-top: 56px;
 }
 
+@media (max-width:1200px){
+  .section-track-container {
+    gap: 40px;
+  }
+}
 
 @media (max-width:900px) {
 
@@ -59,6 +64,7 @@
     object-fit: cover;
     object-position: center;
   }
+ 
 }
 
 @media (max-width:800px) {
