@@ -1,0 +1,26 @@
+/* Section Anywhere */
+
+.section-anywhere {
+  max-width: 1110px;
+  margin: 90px auto 0px;
+  display: grid;
+  text-align: center;
+  gap: 110px;
+  justify-items: center;
+}
+
+.header-anywhere h2 {
+  margin-bottom: 19px;
+}
+
+.header-anywhere p {
+  margin: 0 auto;
+  max-width: 60ch;
+}
+
+@media (max-width:800px) {
+  .section-anywhere {
+    margin-top: 40px;
+    gap: 40px;
+  }
+}

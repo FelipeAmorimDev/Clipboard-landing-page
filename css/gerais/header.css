@@ -1,0 +1,48 @@
+/* Header */
+
+.header-bg {
+  background-image: url("../../images/bg-header-desktop.png");
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.header-container {
+
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+#principal-title {
+  margin-bottom: 16px;
+}
+
+.header-container>a {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  padding-top: 131px;
+  padding-bottom: 36px;
+}
+
+.section-principal {
+  padding: 0px 20px;
+  max-width: 1110px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-principal p {
+  max-width: 55ch;
+  margin: 0 auto 48px;
+}
+
+@media (max-width:800px) {
+  .header-container>a {
+    padding-top: 70px;
+  }
+
+  .download-buttons {
+    margin-top: 40px;
+  }
+}

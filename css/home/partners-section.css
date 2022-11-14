@@ -1,0 +1,32 @@
+/* Section Partners */
+
+.section-partners {
+  display: flex;
+  max-width: 1110px;
+  align-items: center;
+  margin: 150px auto;
+  gap: 90px;
+  padding: 0px 20px;
+}
+
+@media (max-width:1200px) {
+  .section-partners {
+    gap: 60px;
+    justify-content: center;
+  }
+}
+
+@media (max-width:900px) {
+  .section-partners {
+    gap: 50px;
+    margin-top: 76px;
+    margin-bottom: 76px;
+  }
+
+}
+
+@media (max-width:800px) {
+  .section-partners {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,89 @@
+/* Track Section */
+
+.section-track-container {
+  max-width: 1440px;
+  margin: 0 auto 150px;
+  position: relative;
+  left: -20px;
+  display: grid;
+  gap: 0px 110px;
+  grid-template-columns: minmax(400px, auto) minmax(360px, auto);
+  align-items: center;
+}
+
+.header-track {
+  grid-column: 1/-1;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
+.header-track h2 {
+  margin-bottom: 19px;
+}
+
+.header-track p {
+  max-width: 60ch;
+  margin: 0 auto;
+}
+
+.track-vantagens-list {
+  grid-area: 2 /2;
+  margin-bottom: 98px;
+}
+
+.track-vantagens-list p {
+  max-width: 34ch;
+}
+
+.track-vantagens-list li+li {
+  margin-top: 56px;
+}
+
+@media (max-width:1200px) {
+  .section-track-container {
+    gap: 0px 60px;
+  }
+}
+
+@media (max-width:900px) {
+  .section-track-container {
+    gap: 0px 40px;
+  }
+
+  .track-vantagens-list li+li {
+    margin-top: 20px;
+  }
+
+  .section-track-container img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media (max-width:800px) {
+  .section-track-container {
+    grid-template-columns: 1fr;
+    left: 0;
+    padding: 120px 20px;
+    margin-bottom: 0px;
+  }
+
+  .header-track {
+    grid-column: 1;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .track-vantagens-list {
+    grid-area: initial;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 56px;
+  }
+
+  .track-vantagens-list p {
+    margin: 0 auto;
+  }
+}
