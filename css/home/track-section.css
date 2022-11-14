@@ -5,9 +5,9 @@
   margin: 0 auto 150px;
   position: relative;
   left: -20px;
+  gap: 110px;
   display: grid;
-  gap: 0px 110px;
-  grid-template-columns: minmax(400px, auto) minmax(360px, auto);
+  grid-template-columns: minmax(400px, auto) minmax(360px, 1fr);
   align-items: center;
 }
 
@@ -40,16 +40,8 @@
   margin-top: 56px;
 }
 
-@media (max-width:1200px) {
-  .section-track-container {
-    gap: 0px 60px;
-  }
-}
 
 @media (max-width:900px) {
-  .section-track-container {
-    gap: 0px 40px;
-  }
 
   .track-vantagens-list li+li {
     margin-top: 20px;
