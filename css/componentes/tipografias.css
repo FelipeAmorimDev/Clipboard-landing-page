@@ -42,3 +42,15 @@
   letter-spacing: 0.12px;
   font-weight: 400;
 }
+
+@media(max-width:900px){
+  .font-1-xxl{
+    font-size: 2rem;
+  }
+  .font-1-xl{
+    font-size: 1.75rem;
+  }
+  .font-1-l{
+    font-size: 1rem;
+  }
+}

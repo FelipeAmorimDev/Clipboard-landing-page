@@ -14,3 +14,7 @@
 .botao-2 {
   background-color: var(--cor-p2);
 }
+
+.botao-1:hover,.botao-2:hover{
+  opacity: .7;
+}
