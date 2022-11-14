@@ -141,15 +141,20 @@ img {
   justify-items: center;
 }
 
-.header-anywhere h1 {
+.header-anywhere h2 {
   margin-bottom: 19px;
+}
+
+.header-anywhere p {
+ margin: 0 auto;
+ max-width: 60ch;
 }
 
 /* Section workflow */
 
 .section-workflow {
   max-width: 1110px;
-  margin: 0 auto;
+  margin: 30px auto 0px;
   text-align: center;
 }
 
