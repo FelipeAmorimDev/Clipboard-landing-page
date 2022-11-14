@@ -3,12 +3,16 @@
 .section-track-container {
   max-width: 1440px;
   margin: 0 auto 150px;
-  position: relative;
-  left: -20px;
+  
   gap: 110px;
   display: grid;
   grid-template-columns: minmax(400px, auto) minmax(360px, 1fr);
   align-items: center;
+}
+
+.section-track-container img{
+  position: relative;
+  left: -32px;
 }
 
 .header-track {
