@@ -230,7 +230,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-items: start;
-  gap: 0px 30px;
+  gap: 10px 30px;
   color:#4C545C;
 }
 
