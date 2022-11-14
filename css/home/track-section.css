@@ -72,6 +72,10 @@
     margin-bottom: 40px;
   }
 
+  .section-track-container img{
+    position: static;
+    
+  }
   .track-vantagens-list {
     grid-area: initial;
     text-align: center;
