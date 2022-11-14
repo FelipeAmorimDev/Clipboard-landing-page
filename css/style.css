@@ -66,7 +66,7 @@ img {
   transform: translateX(-50%);
   display: inline-block;
   padding-top: 131px;
-  padding-bottom: 46px;
+  padding-bottom: 36px;
 }
 
 .section-principal {
@@ -94,7 +94,7 @@ img {
   max-width: 1440px;
   margin: 0 auto 150px;
   position: relative;
-  left: -10px;
+  left: -20px;
   display: grid;
   gap: 0px 110px;
   grid-template-columns: minmax(400px, auto) minmax(200px, 1fr);
