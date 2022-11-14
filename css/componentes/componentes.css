@@ -13,3 +13,45 @@
 .botao-2{
   background-color: var(--cor-p2);
 }
+
+.section-anywhere{
+  max-width: 1110px;
+  margin: 0 auto;
+  display: grid;
+  text-align: center;
+  gap: 110px;
+  justify-items: center;
+}
+
+.header-anywhere h1{
+  margin-bottom: 19px;
+}
+
+/* Section workflow */
+
+.section-workflow{
+  max-width: 1110px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.workflow-list{
+  display: flex;
+  gap: 0 30px;
+  margin-top: 76px;
+}
+
+  .workflow-item{
+    flex: 1 1 350px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.workflow-item h3{
+  margin-top: 44px;
+  margin-bottom: 16px;
+}
+
+.workflow-item img{
+  place-self: center;
+}
