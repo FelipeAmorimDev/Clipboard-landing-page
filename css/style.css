@@ -66,7 +66,7 @@ img {
   transform: translateX(-50%);
   display: inline-block;
   padding-top: 131px;
-  padding-bottom: 56px;
+  padding-bottom: 46px;
 }
 
 .section-principal {
@@ -83,13 +83,12 @@ img {
 
 /* Track Section */
 
-.section-track-container-bg {
-  /* background-image: url("../images/image-computer.png");
+/* .section-track-container-bg {
+  background-image: url("../images/image-computer.png");
   background-repeat: no-repeat;
   background-position: left bottom;
-  background-size: 752px 572px; */
-
-}
+  background-size: 752px 572px;
+} */
 
 .section-track-container {
   max-width: 1440px;
@@ -231,7 +230,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-items: start;
-  gap: 30px;
+  gap: 0px 30px;
   color:#4C545C;
 }
 
