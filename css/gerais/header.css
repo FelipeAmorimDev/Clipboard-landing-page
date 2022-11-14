@@ -1,7 +1,7 @@
 /* Header */
 
 .header-bg {
-  background-image: url("./images/bg-header-desktop.png");
+  background-image: url("../../images/bg-header-desktop.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom -30px;
@@ -57,7 +57,7 @@
 
 @media (max-width:600px) {
   .header-bg {
-    background-image: url("./images/bg-header-mobile.png");
+    background-image: url("../../images/bg-header-mobile.png");
     background-size: cover;
   }
 }
